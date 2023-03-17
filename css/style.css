@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/7f/f9/64/7ff964a9741b39ee2716f0cb202951aa.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    animation: fade-in 5s forwards;
+
+}
+
+@keyframes fade-in {
+    from {
+        background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    } to {
+        background-image: url('https://i.pinimg.com/originals/7f/f9/64/7ff964a9741b39ee2716f0cb202951aa.jpg');
+    }
+
+}
